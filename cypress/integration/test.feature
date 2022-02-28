@@ -24,7 +24,7 @@ Scenario Outline: User add add new assets
 
     Examples:
         | new_asset_page                 | new_asset        |
-        | "http://localhost:3000/#/add"  | "QWER0000000015" | 
+        | "http://localhost:3000/#/add"  | "QWER0000000016" | 
 
 Scenario Outline: User add existing assets
 
