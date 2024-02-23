@@ -3,7 +3,7 @@
 import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
 
 When(`User see {string}`, (main_page) => {
-    cy.visit(main_page)
+    cy.visit('main_page')
 })
 
 Then(`Header is visible`, () => {

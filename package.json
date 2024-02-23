@@ -25,7 +25,8 @@
     "uuid": "^8.3.1"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": false
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/integration/**/.{feature,js}"
   },
   "scripts": {
     "start-api": "cd api && export FLASK_APP=app.py && flask run",

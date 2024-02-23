@@ -1,5 +1,6 @@
 {
-  "name": "Using fixtures to represent data",
+  "subtitle_one": "User has abbility to Add assetThe asset name should be uniqueThe asset name is a combination of 4 uppercase letters and 10 digitalis",
+  "subtitle_two": "User has abbility to see Existing assetSearch by assert nameFilter by assert nameSort by assert name",
   "email": "hello@cypress.io",
   "body": "Fixtures are a great way to mock data for responses to routes"
 }
